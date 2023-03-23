@@ -4,9 +4,12 @@ public class Person {
 
 	public static void main(String[] args) {
 		
-		String name;
-		String number;
-		String rrn;
+		
+		
+		
+		String userName;
+		String userNumber;
+		String userRrn;
 
 	}
 
