@@ -1,6 +1,6 @@
 package chapter02;
 
-public class IfReit7 {
+public class IfReit07 {
 
 	public static void main(String[] args) {
 		
@@ -8,25 +8,17 @@ public class IfReit7 {
 		
 		
 		int num = 0;
-		
-		while(num<100) {
+
+		while (num < 100) {
 			num++;
 			System.out.println(num);
 		}
-		
 
 		do {
 			System.out.println(num);
 			num--;
-		} while(num>0);
-		
-		
-		
-		
-		
-		
-		
+		} while (num > 0);
+
 	}
 
 }
-	
