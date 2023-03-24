@@ -6,10 +6,9 @@ public class Person {
 		
 		
 		
-		
-		String userName;
-		String userNumber;
-		String userRrn;
+		String userName = "심유경";
+		String userNumber = "010-1111-2222";
+		String userRrn = "950409-2000000";
 
 	}
 
