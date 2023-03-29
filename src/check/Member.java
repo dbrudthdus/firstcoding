@@ -6,17 +6,15 @@ public class Member {
 
 	public static void main(String[] args) {
 		
-		
 		Scanner in = new Scanner(System.in);
-		
+
 		System.out.println("검진 대상자 체크");
 		System.out.println("태어난 년도를 입력하세요. >>");
-		
+
 		int year = in.nextInt();
-		
+
 		printCheckFreeVaccine(year);
 		printCheckMedical(year);
-			
 
 	}
 	
@@ -45,25 +43,21 @@ public class Member {
 //	- 대한민국 성인( 20세 )의 경우 무료로 2년마다 건강검진을 받을 수 있습니다.
 //	- 짝수 해에 태어난 사람은 올해가 짝수년이라면 검사 대상이 됩니다.
 //	- 40 이상의 경우는 암 검사도 무료로 검사를 할 수 있습니다.
-	
+
 	static void printCheckMedical(int year) {
-		
+
 		int age = 2023 - year + 1;
-		
-		if(age>=20 && (2023+year)%2==0 ) {
+
+		if (age >= 20 && (2023 + year) % 2 == 0) {
 			System.out.println("무료 검진 대상입니다.");
-			
-			if(age>=40) {
+
+			if (age >= 40) {
 				System.out.println("무료 암 검진 대상자 입니다.");
 			}
+		} else {
+			System.out.println("올해는 무료 검진대상자가 아닙니다.");
 		}
-		
+
 	}
-	
-	
-	
-	
-	
-	
 
 }
