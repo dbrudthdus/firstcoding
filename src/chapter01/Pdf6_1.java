@@ -1,7 +1,5 @@
 package chapter01;
 
-import java.awt.print.Printable;
-
 public class Pdf6_1 {
 
 	public static void main(String[] args) {
